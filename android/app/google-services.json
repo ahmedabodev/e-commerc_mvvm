@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "780424301999",
+    "project_id": "mvvm-e-commerc",
+    "storage_bucket": "mvvm-e-commerc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780424301999:android:730259d8761370dedd335a",
+        "android_client_info": {
+          "package_name": "com.abudeif.commerc.e_commerc_mvvm_revirpoid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780424301999-59av78q2dsk7uoul2hckp8ls6vrftap6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abudeif.commerc.e_commerc_mvvm_revirpoid",
+            "certificate_hash": "3ad024f6a9ebd1d37ad7906b1ee248e4c168514d"
+          }
+        },
+        {
+          "client_id": "780424301999-vh03shgpfd5ljob7mid784ua62dushja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6JfcscOzSQh6l4PJE3R5F11P1cDQ8RM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780424301999-vh03shgpfd5ljob7mid784ua62dushja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

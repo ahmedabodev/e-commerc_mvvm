@@ -1,0 +1,27 @@
+import 'package:e_commerc_mvvm_revirpoid/config/routes/app_routs.dart';
+import 'package:e_commerc_mvvm_revirpoid/core/utils/colors.dart';
+import 'package:e_commerc_mvvm_revirpoid/core/utils/style.dart';
+import 'package:flutter/material.dart';
+
+class SignUPWidget extends StatelessWidget {
+
+  const SignUPWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        const Text('Don\'t have an account?',style: Styles.textStyle16,),
+        TextButton(
+          onPressed: (){
+            Navigator.pushNamed(context, Routes.signInView);
+          }, child:  Text('Signup',style: Styles.textStyle16.copyWith(
+            color: ColorsApp.textButtonColor
+        ),),
+
+        )
+      ],
+    );
+  }
+}
